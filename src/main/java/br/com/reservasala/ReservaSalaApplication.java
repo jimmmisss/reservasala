@@ -1,13 +1,13 @@
-package br.com.reservasala.config;
+package br.com.reservasala;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ConfigApplication {
+public class ReservaSalaApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ConfigApplication.class, args);
+		SpringApplication.run(ReservaSalaApplication.class, args);
 	}
 
 }
